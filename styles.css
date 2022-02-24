@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(26, 26, 29);
+}
+
+h1 {
+    font-size: 4em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+#desc {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+td {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, p, td{
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
