@@ -24,6 +24,21 @@ h2 {
     width: 30em;
 }
 
+#end {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+input {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    border-style: none;
+    
+}
+
 table {
     table-layout: fixed;
     border-spacing: 10px;

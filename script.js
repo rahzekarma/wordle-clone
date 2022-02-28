@@ -45,13 +45,15 @@ function myFunction() {
     }
 
     else if ((document.getElementById("user").value.length != 5)){
-        document.getElementById(attempt).innerHTML = "5 LETTERS CANT YOU RAED";
+        // document.getElementById(attempt).innerHTML = "5 LETTERS CANT YOU RAED";
         attempt -= 5;
+        document.getElementById("end").innerHTML = "5 LETTERS CANT YOU RAED";
     }
 
     else {
-        document.getElementById(attempt).innerHTML = "That's not a wORD";
+        // document.getElementById(attempt).innerHTML = "That's not a wORD";
         attempt -= 5;
+        document.getElementById("end").innerHTML = "That's not a wORD";
     }
 
     attempt+=5;
