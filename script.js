@@ -1,7 +1,7 @@
 let answer = "penis";
 let attempt = 0
 
-import {Dict5Letters} from "../modules/dict.js";
+import {Dict5Letters} from "./modules/dict.js";
 // const {Dict5Letters} = require("./modules/dict.js");
 
 function checker(a){
