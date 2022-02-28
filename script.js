@@ -5,7 +5,7 @@ import {Dict5Letters} from "./modules/dict.js";
 // const {Dict5Letters} = require("./modules/dict.js");
 
 function checker(a){
-    document.getElementById(attempt + a).innerHTML = document.getElementById("user").value[a];
+    document.getElementById(attempt + a).innerHTML = document.getElementById("user").value[a].toUpperCase();
     if (document.getElementById("user").value[a] == answer[a]){
         document.getElementById(attempt + a).style = "background-color:green";
     }
