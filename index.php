@@ -1,1 +1,1 @@
-<?php include_once(__DIR__ . '/index.html'); ?>
+<?php include_once('practice.html'); ?>
