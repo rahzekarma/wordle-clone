@@ -6,7 +6,7 @@ import {Dict5Letters} from "./modules/dict.js";
 
 function checker(a){
     document.getElementById(attempt + a).innerHTML = document.getElementById("user").value[a].toUpperCase();
-    if (document.getElementById("user").value[a] == answer[a]){
+    if (document.getElementById("user").value[a].toUpperCase() == answer[a].toUpperCase()){
         document.getElementById(attempt + a).style = "background-color:green";
     }
 }
@@ -16,7 +16,7 @@ function yellowChecker(){
     for(let i = 0; i < 5; i++){
         if (document.getElementById(attempt + i).style.backgroundColor == ""){
             for(let j = 0; j < 5; j++){
-                if ((document.getElementById(attempt + j).style.backgroundColor != "green") && (free[j]) && (document.getElementById(attempt + i).innerHTML == answer[j])){
+                if ((document.getElementById(attempt + j).style.backgroundColor != "green") && (free[j]) && (document.getElementById(attempt + i).innerHTML.toUpperCase() == answer[j].toUpperCase())){
                     free[j] = 0;
                     document.getElementById(attempt + i).style = "background-color:yellow";
                 }
