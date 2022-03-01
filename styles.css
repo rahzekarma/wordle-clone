@@ -2,10 +2,16 @@ body {
     background-color: rgb(26, 26, 29);
 }
 
+h1, h2, p, td{
+    color: white;
+}
+
 h1 {
     font-size: 4em;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
+    margin: 20px 5px 10px 5px;
+    font-weight: 1000;
 }
 
 h2 {
@@ -15,6 +21,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 30em;
+    color: rgb(172, 172, 172);
 }
 
 #desc {
@@ -22,6 +29,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 30em;
+    margin-bottom: 20px;
+    padding: 0 0 0 20px;
 }
 
 #end {
@@ -36,12 +45,15 @@ input {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     border-style: none;
-    
+    border: 0;
+    outline: 0;
+    padding: 7px;
 }
 
 table {
     table-layout: fixed;
     border-spacing: 10px;
+    padding: 7px;
 }
 
 td {
@@ -53,10 +65,6 @@ td {
     height: 40px;
     text-align: center;
 
-}
-
-h1, h2, p, td{
-    color: white;
 }
 
 .center {
