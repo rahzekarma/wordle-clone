@@ -64,6 +64,7 @@ function myFunction() {
 
 var input = document.getElementById("user");
 input.addEventListener("keyup", (event) => {
+    document.getElementById("end").innerHTML = "";
     if(event.code === "Enter"){
         event.preventDefault();
         myFunction();
