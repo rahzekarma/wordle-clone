@@ -28,6 +28,7 @@ function yellowChecker(){
 function endChecker(){
     if ((document.getElementById(attempt).style.backgroundColor == "green") && (document.getElementById(attempt + 1).style.backgroundColor == "green") && (document.getElementById(attempt + 2).style.backgroundColor == "green") && (document.getElementById(attempt + 3).style.backgroundColor == "green") && (document.getElementById(attempt + 4).style.backgroundColor == "green")){
         document.getElementById("end").innerHTML = "YOU WIN DAWG!!!";
+        document.getElementById("user").disabled = true;
     }
     else if(document.getElementById(29).innerHTML != ""){
         document.getElementById("end").innerHTML = "you losted";
