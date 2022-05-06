@@ -1,4 +1,4 @@
-let answer = "penis";
+let answer = "bongo";
 let attempt = 0
 
 import {Dict5Letters} from "./modules/dict.js";
